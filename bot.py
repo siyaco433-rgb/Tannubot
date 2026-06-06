@@ -45,7 +45,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_photo(
         photo=qr,
         caption=(
-            f"🎨 *Shreya  Pictures *\n"
+            f"🎨 *Tannu  Pictures *\n"
             f"━━━━━━━━━━━━━━━━━━━━\n\n"
             f"📸 *{PLAN['pictures']}* — ₹{PLAN['price']}\n\n"
             f"*Includes:*\n{features_text}\n\n"
